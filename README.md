@@ -4,7 +4,7 @@
 
 <br><br>
 
-<table border=1 width=100%>
+<table border=1 width=100% align=center>
   <tr>
     <td>
       Name:
@@ -15,7 +15,7 @@
   </tr>
   
   <tr>
-    <td>01-aws-wordpress-rds</td>
+    <td><a href="https://github.com/akylson/Terraform_Projects/tree/main/01-aws-wordpress-rds">01-AWS-Wordpress-RDS</a></td>
     <td>
       Deployed wordpress with RDS Mysql Database. 
     </td>

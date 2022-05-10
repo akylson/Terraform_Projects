@@ -1,0 +1,2 @@
+# AWS - Wordpress + RDS (Mysql) 
+

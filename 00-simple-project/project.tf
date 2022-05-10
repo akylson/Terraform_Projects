@@ -1,8 +1,8 @@
 # AWS Config - Credentials 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA3QPS5FWJ6BPQO462"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 ## Step 1. Creating a VPC

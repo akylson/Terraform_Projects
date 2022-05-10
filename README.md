@@ -1,10 +1,10 @@
 # Terraform / AWS Projects
 
-<img src="https://miro.medium.com/max/800/1*uROgj7pJBK95JibA-PKDHA.png" widht=100%>
+<img align="center" src="https://miro.medium.com/max/800/1*uROgj7pJBK95JibA-PKDHA.png" widht=100%>
 
 <br><br>
 
-<table border=1>
+<table border=1 width=100%>
   <tr>
     <td>
       Name:

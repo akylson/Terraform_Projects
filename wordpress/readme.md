@@ -1,4 +1,5 @@
 # AWS - Wordpress with Terraform
+<img src="https://media-exp1.licdn.com/dms/image/C5612AQGjA3wcza8S3g/article-cover_image-shrink_600_2000/0/1598960401237?e=2147483647&v=beta&t=0qh6c64tyD2D02Akz-TPYQjFDm9QotcC9eK36djaTYk" width=100%>
 
 What is <b>WordPress</b>? At its core, WordPress is the simplest, most popular way to create your own website or blog. In fact, WordPress powers over 35.2% of all the websites on the Internet. Yes – more than one in four websites that you visit are likely powered by WordPress.
 <br><br>

@@ -8,12 +8,12 @@ The end result is that <b>WordPress</b> makes building a website accessible to a
 
 What we did here : 
 
-- Created a VPC named ‘wordpress-vpc’
-- Created an Internet Gateway named ‘wordpress_igw’.
-- Created a route table named ‘wordpess-rt’ and added Internet Gateway route to it.
-- Created 3 public and 3 private subnets in the us-east region. Associated them with the ‘wordpess-rt’ route table. 
-- Created a security group named ‘wordpress-sg’ and opened HTTP, HTTPS, SSH ports to the Internet. Defined port numbers in a variable named ‘ingress_ports’.
-- Created a key pair named ‘ssh-key’
-- Created an EC2 instance named ‘wordpress-ec2’. Used Amazon Linux 2 AMI, t2.micro, ‘wordpress-sg’ security group, ‘ssh-key’ key pair, public subnet 1.
-- Created a security group named ‘rds-sg’ and opened MySQL port and allowed traffic only from ‘wordpress-sg’ security group.
-- Created a MySQL DB instance named ‘mysql’: 20GB, gp2, t2.micro instance class, username=admin, password=adminadmin. Used ‘aws_db_subnet_group’ resource to define private subnets where the DB instance will be created.
+1) Created a VPC named ‘wordpress-vpc’
+2) Created an Internet Gateway named ‘wordpress_igw’.
+3) Created a route table named ‘wordpess-rt’ and added Internet Gateway route to it.
+4) Created 3 public and 3 private subnets in the us-east region. Associated them with the ‘wordpess-rt’ route table. 
+5 Created a security group named ‘wordpress-sg’ and opened HTTP, HTTPS, SSH ports to the Internet. Defined port numbers in a variable named ‘ingress_ports’.
+6) Created a key pair named ‘ssh-key’
+7) Created an EC2 instance named ‘wordpress-ec2’. Used Amazon Linux 2 AMI, t2.micro, ‘wordpress-sg’ security group, ‘ssh-key’ key pair, public subnet 1.
+8) Created a security group named ‘rds-sg’ and opened MySQL port and allowed traffic only from ‘wordpress-sg’ security group.
+9) Created a MySQL DB instance named ‘mysql’: 20GB, gp2, t2.micro instance class, username=admin, password=adminadmin. Used ‘aws_db_subnet_group’ resource to define private subnets where the DB instance will be created.
